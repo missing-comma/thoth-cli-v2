@@ -5,11 +5,11 @@
   "types": "./index.tsx",
   "license": "MIT",
   "devDependencies": {
+    "@missing-comma/thoth-cli-config": "*",
+    "@missing-comma/thoth-cli-tsconfig": "*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/yargs": "^17.0.10",
-    "config": "*",
-    "tsconfig": "*",
     "typescript": "^4.5.3"
   },
   "dependencies": {

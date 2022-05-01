@@ -1,5 +1,13 @@
 {
-  "extends": "tsconfig/nextjs.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+	"extends": "@missing-comma/thoth-cli-tsconfig/nextjs.json",
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"paths": {
+			"~/*": ["./*"],
+			"~cli/*": ["../../packages/cli/src/*"]
+		}
+	}
 }

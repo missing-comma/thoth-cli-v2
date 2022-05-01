@@ -6,17 +6,18 @@
 		"**/.hg": false,
 		"**/CVS": false,
 		"**/.DS_Store": false,
-		"**/*.{lock,}": false,
-		"lib": false,
-		"scripts": false,
-		".gitignore": false,
-		"**/README.md": false,
-		"**/yarn-error.log": false,
-		".[ehlnp]*": false,
-		"**/.npmrc": false,
-		"**/tsconfig.json": false,
-		"**/node_modules/[^t]*": true,
-		"**/node_modules/t[^h]*": true,
-		"**/node_modules/th[^o]*": true
+		"**/*.{lock,}": false
+		// "lib": false,
+		// "scripts": false,
+		// ".gitignore": false,
+		// "**/README.md": false,
+		// "**/yarn-error.log": false,
+		// ".[ehlnp]*": false,
+		// "**/.npmrc": false,
+		// "**/tsconfig.json": false,
+		// "packages/**/node_modules": true
+		// "packages/**/node_modules/[^t]*": true,
+		// "packages/**/node_modules/t[^h]*": true,
+		// "packages/**/node_modules/th[^o]*": true
 	}
 }

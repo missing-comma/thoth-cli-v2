@@ -1,0 +1,5 @@
+{
+	"extends": "@missing-comma/thoth-cli-tsconfig/node.json",
+	"include": ["."],
+	"exclude": ["dist", "build", "node_modules", "jest.config.ts"]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "@missing-comma/jester",
+	"version": "0.0.0",
+	"main": "index.ts",
+	"license": "MIT",
+	"devDependencies": {
+		"@missing-comma/thoth-cli-config": "*",
+		"@missing-comma/thoth-cli-tsconfig": "*",
+		"@missing-comma/jester-config": "*",
+		"typescript": "^4.5.3"
+	},
+	"dependencies": {
+		"babel-jest": "^28.0.2"
+	}
+}

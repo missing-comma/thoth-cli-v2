@@ -1,0 +1,19 @@
+{
+	"name": "@missing-comma/config-reader",
+	"version": "0.0.0",
+	"main": "./index.ts",
+	"types": "./index.ts",
+	"license": "MIT",
+	"scripts": {
+		"build": "echo build"
+	},
+	"dependencies": {
+		"@missing-comma/thoth-core": "*",
+		"@missing-comma/filer": "*"
+	},
+	"devDependencies": {
+		"@missing-comma/thoth-cli-tsconfig": "*",
+		"@missing-comma/thoth-cli-config": "*",
+		"typescript": "^4.5.3"
+	}
+}
